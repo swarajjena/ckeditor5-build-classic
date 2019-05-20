@@ -37,16 +37,12 @@ ClassicEditor.builtinPlugins = [
 ClassicEditor.defaultConfig = {
 	toolbar: {
 		items: [
-			'heading',
-			'|',
 			'bold',
 			'italic',
 			'link',
 			'bulletedList',
 			'numberedList',
-			'blockQuote',
-			'undo',
-			'redo'
+			'blockQuote'
 		]
 	},
 	// This value must be kept in sync with the language defined in webpack.config.js.
